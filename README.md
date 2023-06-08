@@ -1,4 +1,4 @@
-# Transfer to Location Type*
+# Transfer to Location Type
 
 MoveApps
 
