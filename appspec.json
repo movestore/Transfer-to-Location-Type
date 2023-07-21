@@ -20,7 +20,7 @@
     "transfer",
     "location",
 	"non-location",
-	"introduce zeros",
+	"introduce NA",
 	"workaround"
   ],
   "people": [

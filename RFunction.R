@@ -8,10 +8,10 @@ library('sf')
 
 rFunction = function(data) {
   
-  #add fake zero locations, take care that those will be adapted in the following App of this pair, called "Annotate with Location"
-  data$location_long <- 0 
-  data$location_lat <- 0
-  data$geometry <- st_sfc(st_point(c(0,0)),crs=st_crs("WGS84"))
+  #add NA locations; those will be adapted in the following App of this pair, called "Annotate with Location"
+  data$location_long <- NA 
+  data$location_lat <- NA
+  #data$geometry <- st_sfc(st_point(c(NA,NA)),crs=st_crs("WGS84")) #not possible to have non-numeric st_point
 
   data$IOTYPE <- "move2_nonloc"
   
